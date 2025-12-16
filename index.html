@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teras PiLung Senja</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Teras PiLung<span>Senja</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button">
+          <i data-feather="shopping-cart"></i>
+        </a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Cari disini..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <!-- Shopping Cart -->
+      <div class="shopping-cart">
+        <h3>Keranjang</h3>
+        <div class="cart-items"></div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="mask-container"></div>
+
+      <div class="content">
+        <h1>Welcome<br /><span>Teras PiLung Senja</span></h1>
+        <p>
+          Nikmati sajian hangat dari Pia & Alung. Tempat nyaman, estetik, dan
+          penuh suasana senja.
+        </p>
+        <a href="#menu" class="cta">Lihat Menu</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2><span>🌟 Keunggulan</span> Teras PiLung Senja</h2>
+
+      <div class="row">
+        <div class="about"></div>
+        <div class="about"></div>
+        <div class="content">
+          <p>
+            <b>1. Tempat Nyaman & Estetik 🏡</b><br />
+            Suasana hangat dengan tema senja, cocok untuk santai & foto-foto.
+          </p>
+
+          <p>
+            <b>2. Menu Lezat 🍞☕</b><br />
+            Dimasak penuh cinta oleh Pia & Alung.
+          </p>
+
+          <p>
+            <b>3. Harga Bersahabat 💸</b><br />
+            Cocok untuk pelajar, mahasiswa, hingga karyawan.
+          </p>
+
+          <p>
+            <b>4. Lokasi Strategis 🌆</b><br />
+            Mudah dijangkau & nyaman untuk nongkrong.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>Silakan pilih makanan dan minuman favoritmu ❤️</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/1.jpg" alt="Espresso" />
+          <h3 class="menu-title">Espresso</h3>
+          <p class="menu-card-price">20000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/2.jpg" alt="Matcha Latte" />
+          <h3 class="menu-title">Matcha Latte</h3>
+          <p class="menu-card-price">20000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/10.jpg" alt="Es Teh" />
+          <h3 class="menu-title">Es Teh</h3>
+          <p class="menu-card-price">8000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/3.jpg" alt="Cappuccino" />
+          <h3 class="menu-title">Cappuccino</h3>
+          <p class="menu-card-price">15000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/4.jpg" alt="Wonton Chili Oil" />
+          <h3 class="menu-title">Wonton Chili Oil</h3>
+          <p class="menu-card-price">20000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/5.jpg" alt="Dimsum Mentai" />
+          <h3 class="menu-title">Dimsum Mentai</h3>
+          <p class="menu-card-price">25000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/6.jpg" alt="Seblak Hot" />
+          <h3 class="menu-title">Seblak Hot</h3>
+          <p class="menu-card-price">30000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/7.jpg" alt="Cireng Kuah Pedas" />
+          <h3 class="menu-title">Cireng Kuah Pedas</h3>
+          <p class="menu-card-price">20000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/8.jpg" alt="Pentol Pedas" />
+          <h3 class="menu-title">Pentol Pedas</h3>
+          <p class="menu-card-price">15000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/9.jpg" alt="Mie Gacoan" />
+          <h3 class="menu-title">Mie Gacoan</h3>
+          <p class="menu-card-price">25000</p>
+          <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311709235512!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1672408575523!5m2!1sen!2sid"
+          class="map"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form>
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No. HP" />
+          </div>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="#">Egi Oktavia</a> | &copy; 2025</p>
+      </div>
+    </footer>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
